@@ -55,7 +55,8 @@ public class Flight {
     @Override
     public String toString(){
         return "airline.Flight{" + "destination='" + this.destination +
-                "', id='" + this.id + "'}";
+                "', id='" + this.id +
+                "', passenger number='" + this.countPassengerList() + "'}";
     }
 
 }
