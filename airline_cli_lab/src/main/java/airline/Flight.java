@@ -1,5 +1,8 @@
+package airline;
+
+import airline.Passenger;
+
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Flight {
 
@@ -51,7 +54,7 @@ public class Flight {
 
     @Override
     public String toString(){
-        return "Flight{" + "destination='" + this.destination +
+        return "airline.Flight{" + "destination='" + this.destination +
                 "', id='" + this.id + "'}";
     }
 

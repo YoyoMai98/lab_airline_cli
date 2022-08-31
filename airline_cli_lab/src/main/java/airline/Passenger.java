@@ -1,3 +1,5 @@
+package airline;
+
 public class Passenger {
 
     private String name;

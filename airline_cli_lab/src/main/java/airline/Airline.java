@@ -1,3 +1,5 @@
+package airline;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -50,7 +52,7 @@ public class Airline {
             }
         }
 
-        throw new Exception("Flight not found!");
+        throw new Exception("airline.Flight not found!");
     }
 
     public Flight chooseFlight() throws Exception{
@@ -70,7 +72,7 @@ public class Airline {
 
     public String bookFlight(Flight flight){
         if(flight.getDestination().isEmpty()){
-            return "Flight not found";
+            return "airline.Flight not found";
         }
         Scanner reader = new Scanner(System.in);
         System.out.println("Please type in your name and mobile number (split by a space): ");

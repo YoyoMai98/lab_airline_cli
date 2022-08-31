@@ -1,3 +1,8 @@
+package option;
+
+import airline.Airline;
+import airline.Flight;
+
 import java.util.Scanner;
 
 public class Option {

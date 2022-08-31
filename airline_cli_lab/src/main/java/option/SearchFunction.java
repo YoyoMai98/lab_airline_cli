@@ -1,3 +1,7 @@
+package option;
+
+import airline.Flight;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
