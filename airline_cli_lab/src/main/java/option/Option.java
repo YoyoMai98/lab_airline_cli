@@ -9,7 +9,7 @@ public class Option {
 
     public static void chooseOption(Airline airline){
         Scanner reader = new Scanner(System.in);
-        System.out.println("Available option: search, addFlight, cancelFlight, displayFlight, bookFlight, break");
+        printMenu();
 
         String chosenOption = reader.nextLine();
 
@@ -48,5 +48,11 @@ public class Option {
             case "break":
                 break;
         }
+    }
+
+    public static void printMenu (){
+        System.out.println(
+                "Available option: \n" +
+                        "search, addFlight, cancelFlight, displayFlight, bookFlight, break");
     }
 }
